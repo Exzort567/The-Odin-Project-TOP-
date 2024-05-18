@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(203, 244, 244);
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+}
+
+#rock, #paper, #scissors {
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+ /* Info */
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 12px;
+    font-size: large;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+#start {
+    padding: 20px 70px;
+    border-radius: 8px;
+    border: none;
+}
